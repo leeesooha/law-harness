@@ -1,0 +1,27 @@
+{
+  "name": "law-harness",
+  "metadata": {
+    "description": "내 프로젝트용 플러그인 모음",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "soohalee",
+    "url": "https://github.com/leeesooha/law-harness"
+  },
+  "plugins": [
+    {
+      "name": "law-plugin",
+      "source": "./plugins/law-plugin",
+      "description": "설명",
+      "version": "1.0.0"
+    },
+    {
+      "name": "backend",
+      "source": "./plugins/backend",
+      "description": "Spring Boot + Java + MyBatis + SQL Server 백엔드 스캐폴딩. scaffold-api 스킬로 Controller/Service/Mapper/DTO/XML Mapper를 한 번에 생성한다.",
+      "version": "1.0.0",
+      "category": "backend",
+      "keywords": ["spring-boot", "mybatis", "sqlserver", "java", "backend"]
+    }
+  ]
+}
