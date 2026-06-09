@@ -10,12 +10,6 @@
   },
   "plugins": [
     {
-      "name": "law-plugin",
-      "source": "./plugins/law-plugin",
-      "description": "설명",
-      "version": "1.0.0"
-    },
-    {
       "name": "backend",
       "source": "./plugins/backend",
       "description": "Spring Boot + Java + MyBatis + SQL Server 백엔드 스캐폴딩. scaffold-api 스킬로 Controller/Service/Mapper/DTO/XML Mapper를 한 번에 생성한다.",
