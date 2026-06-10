@@ -10,12 +10,60 @@
   },
   "plugins": [
     {
+      "name": "shared-conventions",
+      "source": "./plugins/shared-conventions",
+      "description": "팀 공통 규칙 SSOT. BUG-PLAN/FEAT-PLAN 프로세스, 승인 게이트, 커밋 규칙, BE/FE 파일 소유권.",
+      "version": "0.1.0",
+      "category": "conventions",
+      "keywords": ["conventions", "team", "process"]
+    },
+    {
+      "name": "planning",
+      "source": "./plugins/planning",
+      "description": "GitHub Issues 연동 기능 스펙 작성. write-prd 스킬로 BE/FE 작업 범위를 분리한 spec.md를 산출한다.",
+      "version": "0.1.0",
+      "category": "planning",
+      "keywords": ["planning", "prd", "spec", "github-issues"]
+    },
+    {
       "name": "backend",
       "source": "./plugins/backend",
       "description": "Spring Boot + Java + MyBatis + SQL Server 백엔드 스캐폴딩. scaffold-api 스킬로 Controller/Service/Mapper/DTO/XML Mapper를 한 번에 생성한다.",
-      "version": "1.0.0",
+      "version": "0.1.0",
       "category": "backend",
       "keywords": ["spring-boot", "mybatis", "sqlserver", "java", "backend"]
+    },
+    {
+      "name": "frontend",
+      "source": "./plugins/frontend",
+      "description": "React 19 + TypeScript + Vite 컴포넌트 스캐폴딩 및 BE API 연동. scaffold-component, consume-api, frontend-conventions 스킬 포함.",
+      "version": "0.1.0",
+      "category": "frontend",
+      "keywords": ["react", "typescript", "vite", "frontend"]
+    },
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "CSS 변수 기반 디자인 토큰 관리. tokens-to-code 스킬로 라이트/다크 모드 토큰을 index.css에 추가한다.",
+      "version": "0.1.0",
+      "category": "design",
+      "keywords": ["design", "css", "tokens", "dark-mode"]
+    },
+    {
+      "name": "qa",
+      "source": "./plugins/qa",
+      "description": "Vitest + Playwright CLI/MCP 검증 루프. qa-verifier 에이전트, evaluation-criteria rubric, 커밋 전 lint/test/build 게이트 훅.",
+      "version": "0.1.0",
+      "category": "qa",
+      "keywords": ["qa", "vitest", "playwright", "testing"]
+    },
+    {
+      "name": "orchestrator",
+      "source": "./plugins/orchestrator",
+      "description": "풀스택 기능 워크플로우 진입점. /build-feature로 planning→(backend∥design)→frontend⇄qa 전 과정을 지휘한다.",
+      "version": "0.1.0",
+      "category": "workflow",
+      "keywords": ["orchestrator", "workflow", "build-feature"]
     }
   ]
 }
