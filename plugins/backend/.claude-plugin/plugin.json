@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "backend",
+  "description": "BE 역할 하네스: Spring Boot + MyBatis API 스캐폴딩 스킬, BE 컨벤션, /scaffold-api 커맨드, API 설계 검토 서브에이전트. 스택: Spring Boot 4.0.6 + Java 17 + MyBatis + SQL Server.",
+  "version": "0.1.0",
+  "author": { "name": "leeesooha", "email": "dltngk630@gmail.com" }
+}

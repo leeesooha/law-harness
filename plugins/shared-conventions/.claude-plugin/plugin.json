@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "shared-conventions",
+  "description": "팀 공통 코딩/협업 규칙 SSOT. 작업 프로세스(BUG-PLAN/FEAT-PLAN), 승인 게이트, 커밋 규칙, 파일 소유권, 공통 금지 사항. backend·frontend 플러그인이 전제로 하는 공통 규칙.",
+  "version": "0.1.0",
+  "author": { "name": "leeesooha", "email": "dltngk630@gmail.com" }
+}

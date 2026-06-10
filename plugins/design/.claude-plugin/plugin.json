@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "design",
+  "description": "디자인 역할 하네스: CSS 변수 토큰 추가/수정 스킬, 디자인 시스템 가이드, 디자인 서브에이전트. 스택: CSS 변수 + 라이트/다크 모드 (Tailwind 없음).",
+  "version": "0.1.0",
+  "author": { "name": "leeesooha", "email": "dltngk630@gmail.com" }
+}

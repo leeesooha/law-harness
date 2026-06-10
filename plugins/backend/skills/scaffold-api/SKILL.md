@@ -1,8 +1,8 @@
 ---
 name: scaffold-api
-description: Spring Boot + MyBatis 구조로 CRUD API 엔드포인트를 스캐폴딩한다.
-             "API 만들어줘", "엔드포인트 추가해줘", "CRUD 만들어줘", "Controller/Service/Mapper 만들어줘" 요청 시 사용.
-             Controller · Service(interface+impl) · Mapper · DTO · XML Mapper를 한 번에 생성한다.
+description: Spring Boot + MyBatis 구조로 CRUD API 엔드포인트를 스캐폴딩한다. "API 만들어줘", "엔드포인트 추가해줘", "CRUD 만들어줘", "Controller/Service/Mapper 만들어줘" 요청 시 사용. Controller · Service(interface+impl) · Mapper · DTO · XML Mapper를 한 번에 생성한다.
+argument-hint: "<도메인명> [필드: field1:type, field2:type, ...] [테이블: table_name]"
+allowed-tools: Read Write Edit Bash(./gradlew:*)
 ---
 
 # API 스캐폴딩 (Spring Boot + MyBatis)
